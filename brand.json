@@ -1,0 +1,24 @@
+{
+  "schema_id": "nephew-one-icon.brand/v1",
+  "product": "Nephew One Icon",
+  "brand": "Nephew One",
+  "canonical_mark": "ICON",
+  "canonical_icon": "assets/nephew-one-icon.svg",
+  "palette": {
+    "cyan": "#18B7CE",
+    "cyan_shadow": "#075A68",
+    "white": "#FFFFFF",
+    "soft_white": "#F7FEFF",
+    "outer_ink": "#161A1D"
+  },
+  "typography": {
+    "system_first": true,
+    "supporting_text_small": true,
+    "dominant_mark_large": true
+  },
+  "geometry": {
+    "white_outer_border": true,
+    "icon_centered_horizontal_vertical": true,
+    "rounded_square": true
+  }
+}
