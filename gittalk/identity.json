@@ -1,0 +1,17 @@
+{
+  "schema_id": "gittalk.product-identity/v1",
+  "room": "nephew-one-icon-identity",
+  "product": "Nephew One Icon",
+  "repository": "marvelousempire/nephew-one-icon",
+  "state": "canonical-product-home-established",
+  "purpose": "Own the generic Nephew One ICON identity and icon-attire source without mixing product-specific sibling marks.",
+  "canonical_source": "assets/nephew-one-icon.svg",
+  "decisions": [
+    "The product name is Nephew One Icon.",
+    "The dominant mark is ICON.",
+    "The product hue is cyan.",
+    "The dominant mark is centered horizontally and vertically.",
+    "Nephew One CMS keeps its separate mustard CMS identity."
+  ],
+  "truth_boundary": "This room establishes identity ownership. Application behavior beyond the confirmed icon/attire role must be commissioned separately rather than inferred from the repository name."
+}
