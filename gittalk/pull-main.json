@@ -1,0 +1,19 @@
+{
+  "schema_id": "gittalk.pull-main/v1",
+  "room": "nephew-one-icon-pull-main",
+  "repository": "marvelousempire/nephew-one-icon",
+  "canonical_branch": "main",
+  "default_reconciliation": "ff-only",
+  "operator_sequence": [
+    "git status --short",
+    "git fetch origin main",
+    "git switch main",
+    "git pull --ff-only origin main",
+    "make verify"
+  ],
+  "rules": {
+    "dirty_worktree": "Preserve or reconcile local work before pulling; do not discard automatically.",
+    "divergence": "Stop and explicitly reconcile divergent history; do not force-push by default.",
+    "post_pull": "Run make verify so generated attire is checked against the canonical source."
+  }
+}
