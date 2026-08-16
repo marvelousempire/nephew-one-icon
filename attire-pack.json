@@ -1,0 +1,26 @@
+{
+  "schema_id": "nephew-one-icon.attire-pack/v1",
+  "product": "Nephew One Icon",
+  "master_icon": "assets/nephew-one-icon.svg",
+  "generated_assets": [
+    "assets/nephew-one-icon.png",
+    "assets/NephewOneIcon.icns"
+  ],
+  "rules": {
+    "solid_cyan_field": true,
+    "white_outer_border": true,
+    "nephew_one_supporting_text_is_small": true,
+    "icon_is_dominant_mark": true,
+    "icon_centered_horizontal_vertical": true,
+    "byline_supporting_text_is_small": true,
+    "product_specific_marks_do_not_leak_in": true
+  },
+  "sibling_products": {
+    "nephew-one-cms": {
+      "repository": "marvelousempire/nephew-one-cms",
+      "mark": "CMS",
+      "palette_role": "mustard-gold",
+      "rule": "CMS remains a separate product identity."
+    }
+  }
+}
