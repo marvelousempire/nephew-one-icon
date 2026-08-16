@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title id="title">Nephew One Icon</title>
+  <desc id="desc">Nephew One Icon cyan application icon with centered ICON lettering and white border.</desc>
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="24" stdDeviation="26" flood-color="#07171b" flood-opacity=".38"/>
+    </filter>
+    <filter id="typeShadow" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="10" stdDeviation="8" flood-color="#075969" flood-opacity=".32"/>
+    </filter>
+  </defs>
+  <rect width="1024" height="1024" fill="#161A1D"/>
+  <g filter="url(#shadow)">
+    <rect x="88" y="76" width="850" height="858" rx="138" fill="#075A68" opacity=".56"/>
+    <rect x="72" y="60" width="880" height="856" rx="138" fill="#18B7CE" stroke="#FFFFFF" stroke-width="30"/>
+    <rect x="104" y="92" width="816" height="792" rx="108" fill="none" stroke="#FFFFFF" stroke-opacity=".42" stroke-width="4"/>
+  </g>
+  <text x="512" y="184" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Neue',Arial,sans-serif" font-size="44" font-weight="700" letter-spacing="14" fill="#F7FEFF">NEPHEW ONE</text>
+  <text x="512" y="512" text-anchor="middle" dominant-baseline="central" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Neue',Arial,sans-serif" font-size="252" font-weight="800" letter-spacing="-6" fill="#FFFFFF" filter="url(#typeShadow)">ICON</text>
+  <text x="512" y="842" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display','Helvetica Neue',Arial,sans-serif" font-size="27" font-weight="700" letter-spacing="7" fill="#F7FEFF">BY AVERY GOODMAN</text>
+</svg>
